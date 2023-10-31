@@ -25,7 +25,7 @@ const Sidebar = () => {
   const open = useAppSelector(selectDrawer)
   return (
     <Drawer open={open}>
-      {open && <Advertisement />}
+      {/*{open && <Advertisement />}*/}
 
       <Toolbar direction={open ? 'row' : 'column'} />
 
